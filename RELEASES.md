@@ -27,3 +27,4 @@ releases/
 
 - 2026-04-29: Lokales EXE-Bundle, Source-ZIP und Checksummen aus dem aktuellen Arbeitsstand aktualisiert.
 - 2026-05-01: Release-Dokumentation an die GitHub-Policy angepasst: Artefakte bleiben lokal oder in GitHub Releases.
+- 2026-05-16: GitHub-Hygiene geprüft; Build-, Cache-, Coverage- und Signierartefakte bleiben ignoriert, verteilbare Dateien weiterhin außerhalb des Quellbaums.

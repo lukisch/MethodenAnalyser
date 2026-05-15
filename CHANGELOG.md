@@ -6,12 +6,15 @@ Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.1.0/).
 ## [Unreleased]
 
 ### Hinzugefügt / Added
+- README dokumentiert jetzt den aktuellen Repository-Hygiene-Stand für Offline-Betrieb, ignorierte Artefakte und Vor-Release-Prüfungen.
 - README bindet jetzt den vorhandenen GUI-Screenshot aus `README/screenshots/main.png` direkt ein.
 - Das Hauptfenster verwendet das lokale `MethodenAnalyser.ico`, wenn es verfügbar ist.
 - GitHub Actions Smoke-Test kompiliert die Python-Dateien auf Python 3.10 bis 3.12.
 - `RELEASES.md` dokumentiert die lokale Release-Struktur ohne Build-Artefakte ins Repository aufzunehmen.
 
 ### Geändert / Changed
+- `.gitignore` schließt zusätzliche Cache-, Coverage- und Signierartefakte aus.
+- `STORE_LISTING.md` verwendet im deutschen Store-Text echte Umlaute statt Umschreibungen.
 - README, SECURITY und CONTRIBUTING verweisen auf `dev-bricks/MethodenAnalyser`.
 - `START.bat` setzt UTF-8/PYTHONIOENCODING und nutzt `py -3` mit `python`-Fallback.
 - Lokale Release-Artefakte bleiben unter dem ignorierten `releases/`-Ordner oder in GitHub Releases.

@@ -6,31 +6,31 @@
 Statischer Python-Code-Analyser — findet ungenutzte Imports, tote Definitionen und Code-Duplikate.
 
 ### Beschreibung (max 10.000 Zeichen)
-MethodenAnalyser ist ein statischer Code-Analyser speziell fuer Python-Projekte. Er nutzt den Abstract Syntax Tree (AST) fuer praezise Analyse und bietet eine einfache Tkinter-GUI — keine Kommandozeile noetig, keine externen Abhaengigkeiten.
+MethodenAnalyser ist ein statischer Code-Analyser speziell für Python-Projekte. Er nutzt den Abstract Syntax Tree (AST) für präzise Analyse und bietet eine einfache Tkinter-GUI — keine Kommandozeile nötig, keine externen Abhängigkeiten.
 
 **Was MethodenAnalyser kann:**
 
-- AST-basierte Analyse: Praezise statische Analyse ueber den Python Abstract Syntax Tree — keine Regex-Heuristiken
-- Import-Tracking: Erkennt genutzte und ungenutzte Imports zuverlaessig
+- AST-basierte Analyse: Präzise statische Analyse über den Python Abstract Syntax Tree — keine Regex-Heuristiken
+- Import-Tracking: Erkennt genutzte und ungenutzte Imports zuverlässig
 - Methoden-Katalog: Listet alle Funktionen, Methoden und Klassen mit Nutzungsstatus auf
-- Duplikat-Erkennung: Findet aehnliche Code-Bloecke mit konfigurierbarem Schwellwert (Standard: 80%)
+- Duplikat-Erkennung: Findet ähnliche Code-Blöcke mit konfigurierbarem Schwellwert (Standard: 80%)
 - Framework-Erkennung: Erkennt ob Definitionen von Tkinter, requests, asyncio und anderen Frameworks implizit genutzt werden
-- Callback-Erkennung: Identifiziert Callback-Funktionen korrekt als genutzt (haeufige Fehlerquelle anderer Tools)
+- Callback-Erkennung: Identifiziert Callback-Funktionen korrekt als genutzt (häufige Fehlerquelle anderer Tools)
 - Multi-File-Analyse: Ganze Python-Projekte rekursiv analysieren mit aggregiertem Report
 
 **Was unterscheidet MethodenAnalyser von pylint, flake8 oder vulture?**
 
-- Code-Aehnlichkeitserkennung: Kein anderes gaengiges Tool findet aehnliche (nicht identische) Code-Bloecke
+- Code-Ähnlichkeitserkennung: Kein anderes gängiges Tool findet ähnliche (nicht identische) Code-Blöcke
 - Framework-Awareness: Erkennt implizite Nutzung durch GUI-Frameworks und Bibliotheken
 - GUI statt Terminal: Sofort nutzbar ohne Konfiguration oder Plugin-Installation
-- Zero Dependencies: Laeuft mit reinem Python — kein pip install noetig
+- Zero Dependencies: Läuft mit reinem Python — kein pip install nötig
 
-**Fuer wen ist MethodenAnalyser?**
+**Für wen ist MethodenAnalyser?**
 
-Python-Entwickler, die ihren Code aufraeumen und toten Code finden moechten. Besonders nuetzlich bei gewachsenen Projekten, Code-Reviews und vor Refaktorierungen.
+Python-Entwickler, die ihren Code aufräumen und toten Code finden möchten. Besonders nützlich bei gewachsenen Projekten, Code-Reviews und vor Refaktorierungen.
 
-### Schluesselwoerter
-Python, Code-Analyse, AST, statische Analyse, ungenutzte Imports, tote Methoden, Duplikat-Erkennung, Code-Qualitaet, Refactoring, Entwickler-Tool
+### Schlüsselwörter
+Python, Code-Analyse, AST, statische Analyse, ungenutzte Imports, tote Methoden, Duplikat-Erkennung, Code-Qualität, Refactoring, Entwickler-Tool
 
 ### Kategorie
 Developer Tools

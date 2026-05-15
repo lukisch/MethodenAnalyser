@@ -7,6 +7,10 @@
 # ---- Python ----
 __pycache__/
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 *.py[cod]
 *$py.class
 *.egg-info/
@@ -52,6 +56,9 @@ releases/
 *.msix
 *.appx
 *.spec
+*.pfx
+*.p12
+*.cer
 
 # ---- IDE & Editoren ----
 .claude/

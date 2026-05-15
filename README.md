@@ -115,6 +115,13 @@ MethodenAnalyser arbeitet vollständig lokal. Der ausgewählte Python-Code, Date
 
 Release-Artefakte wie EXE-Dateien, lokale Builds und Store-Pakete bleiben außerhalb des Git-Repositorys und gehören in lokale `releases/`-Ordner oder GitHub Releases.
 
+## Repository-Hygiene
+
+- Keine Telemetrie, keine Netzwerkverbindungen und keine Cloud-Synchronisierung aus der Anwendung heraus.
+- Lokale Build-, Release-, Coverage-, Cache- und Signierartefakte sind über `.gitignore` ausgeschlossen.
+- Interne Wartungsnotizen wie `AUFGABEN.txt` bleiben lokal und werden nicht im Git-Quellbaum veröffentlicht.
+- Vor Veröffentlichungen: `git status --short`, Secret-Scan und `python -m py_compile MethodenAnalyser3.py manage_translations.py translator.py` ausführen.
+
 ---
 
 ## Entwicklung / Verification
