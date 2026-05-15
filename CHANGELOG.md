@@ -6,7 +6,7 @@ Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.1.0/).
 ## [Unreleased]
 
 ### Hinzugefügt / Added
-- README dokumentiert jetzt den aktuellen Repository-Hygiene-Stand für Offline-Betrieb, ignorierte Artefakte und Vor-Release-Prüfungen.
+- README dokumentiert jetzt den GitHub-/Privacy-Hygiene-Check vom 2026-05-16, den synchronen Branch-Stand und die lokalen Artefaktgrenzen.
 - README bindet jetzt den vorhandenen GUI-Screenshot aus `README/screenshots/main.png` direkt ein.
 - Das Hauptfenster verwendet das lokale `MethodenAnalyser.ico`, wenn es verfügbar ist.
 - GitHub Actions Smoke-Test kompiliert die Python-Dateien auf Python 3.10 bis 3.12.
@@ -20,6 +20,7 @@ Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.1.0/).
 - Lokale Release-Artefakte bleiben unter dem ignorierten `releases/`-Ordner oder in GitHub Releases.
 
 ### Behoben / Fixed
+- Privacy-/Secret-Check ohne Befund; keine Credentials oder getrackten ignorierten Dateien gefunden.
 - Öffentliche persönliche Kontakt-Mail aus `CODE_OF_CONDUCT.md` entfernt.
 - Haftungshinweis ist jetzt auf die tatsächliche MIT-Lizenz beschränkt.
 

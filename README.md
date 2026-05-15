@@ -117,6 +117,11 @@ Release-Artefakte wie EXE-Dateien, lokale Builds und Store-Pakete bleiben außer
 
 ## Repository-Hygiene
 
+Stand: 2026-05-16
+
+- GitHub-Remote: `dev-bricks/MethodenAnalyser`
+- Lokaler Branch `master` war vor diesem Pflege-Update synchron mit `origin/master` (`0 ahead / 0 behind`).
+- Secret-/Privacy-Check: keine Tokens, Schlüssel oder Credentials in den getrackten Projektdateien gefunden.
 - Keine Telemetrie, keine Netzwerkverbindungen und keine Cloud-Synchronisierung aus der Anwendung heraus.
 - Lokale Build-, Release-, Coverage-, Cache- und Signierartefakte sind über `.gitignore` ausgeschlossen.
 - Interne Wartungsnotizen wie `AUFGABEN.txt` bleiben lokal und werden nicht im Git-Quellbaum veröffentlicht.

@@ -9,9 +9,13 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.hypothesis/
 .coverage
+coverage.xml
 htmlcov/
 *.py[cod]
+*.pyo
+*.pyd
 *$py.class
 *.egg-info/
 *.egg
